@@ -325,6 +325,50 @@ ul {
   color: var(--primery-text-color);
 }
 
+/* Клиенты */
+.clients-list {
+  display: flex;
+  margin-left: -30px;
+}
+
+.clients-item {
+  margin-left: 30px;
+  flex-basis: calc(100% / 3 - 30px);
+}
+
+.clients-link {
+  display: inline-block;
+  width: 170px;
+  height: 92px;
+  color: #afb1b8;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+  cursor: pointer;
+
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.clients-icon {
+  width: 106px;
+  height: 60px;
+  position: center;
+  fill: #afb1b8;
+}
+
+.clients-link:hover,
+.clients-link:focus {
+  border: 1px solid #2196f3;
+}
+
+.clients-icon:hover,
+.clients-icon:focus {
+  fill: #2196f3;
+}
+
 /* Футер */
 .footer {
   background-color: var(--dark-bg-color);
