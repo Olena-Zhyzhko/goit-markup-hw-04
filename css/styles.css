@@ -343,9 +343,6 @@ ul {
 }
 
 .clients-item {
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-
   margin-left: 30px;
   flex-basis: calc(100% / 6 - 30px);
   color: #afb1b8;
@@ -361,6 +358,9 @@ ul {
   height: 92px;
   /* color: #afb1b8; */
   padding: 16px 32px;
+
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
 
 .clients-icon {
@@ -370,18 +370,22 @@ ul {
   height: 60px; */
   fill: #afb1b8;
 }
-/* 
+
 .clients-link:hover,
 .clients-link:focus {
   border: 1px solid var(--accent-color);
-  color: var(--accent-color);
-} */
+}
 
-.clients-item:hover,
+.clients-link:hover .clients-icon,
+.clients-link:focus .clients-icon {
+  fill: var(--accent-color);
+}
+
+/* .clients-item:hover,
 .clients-item:focus {
   border: 1px solid var(--accent-color);
   color: var(--accent-color);
-}
+} */
 
 .clients-icon:hover,
 .clients-icon:focus {
