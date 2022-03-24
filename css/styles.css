@@ -448,6 +448,7 @@ ul {
   color: var(--light-color);
 }
 
+/* Адресс */
 address.address {
   margin-top: 20px;
   color: var(--light-color);
@@ -465,6 +466,55 @@ address.address {
 
 .footer-contacts-link {
   color: var(--style-text-color);
+}
+
+/* Присоединяйтесь */
+
+.footer-list {
+  display: flex;
+  align-items: center;
+}
+
+.footer-social-item {
+  width: 206px;
+  height: 80px;
+  margin-left: 70px;
+  margin-right: 93px;
+}
+
+.footer-title {
+  margin-bottom: 20px;
+  font-size: inherit;
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.footer-social-item .social-list {
+  margin: 0;
+}
+
+.foot-social-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.footer-social-link {
+  display: block;
+  width: 44px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: var(--accent-color);
+}
+
+.footer-social-item .social-icon {
+  fill: var(--light-color);
 }
 
 /* Портфолио */
