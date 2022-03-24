@@ -329,7 +329,6 @@ ul {
 
 .team-list > .team-list-item {
   margin-left: 30px;
-  /* padding-bottom: 30px; */
   flex-basis: calc(100% / 4 - 30px);
 
   background-color: var(--light-color);
@@ -358,6 +357,43 @@ ul {
   line-height: 1.19;
   text-align: center;
   color: var(--primery-text-color);
+}
+
+.social-list {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+  margin-right: 32px;
+  margin-left: 22px;
+}
+
+.social-item {
+  margin-left: 10px;
+  flex-basis: calc(100% / 4 - 10px);
+}
+
+.social-link {
+  display: block;
+  width: 44px;
+  height: 44px;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+  margin: 12px;
+}
+
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--accent-color);
+  border-radius: 50%;
+}
+
+.social-link:hover .social-icon,
+.social-link:focus .social-icon {
+  fill: var(--light-color);
 }
 
 /* Клиенты */
