@@ -152,6 +152,7 @@ ul {
 }
 
 .header-contacts-link {
+  max-height: 80px;
   display: flex;
   align-items: center;
   padding-top: 32px;
@@ -165,6 +166,7 @@ ul {
 }
 
 .contacts-icon {
+  max-height: 16px;
   margin-right: 10px;
   fill: currentColor;
 }
