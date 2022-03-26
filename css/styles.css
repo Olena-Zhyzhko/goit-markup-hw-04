@@ -267,10 +267,12 @@ ul {
 }
 
 .featurs-thumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 120px;
   background: #f5f4fa;
   border-radius: 4px;
-  padding: 25px 100px;
   margin-bottom: 30px;
 }
 
@@ -322,6 +324,8 @@ ul {
 .team-box {
   padding-top: 30px;
   padding-bottom: 30px;
+  padding-right: 32px;
+  padding-left: 32px;
 }
 
 .team-list > .team-list-item {
@@ -360,8 +364,7 @@ ul {
   display: flex;
   align-items: center;
   margin-top: 16px;
-  margin-right: 32px;
-  margin-left: 22px;
+  margin-left: -10px;
 }
 
 .social-item {
@@ -370,14 +373,15 @@ ul {
 }
 
 .social-link {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 44px;
   height: 44px;
 }
 
 .social-icon {
   fill: #afb1b8;
-  margin: 12px;
 }
 
 .social-link:hover,
@@ -405,7 +409,9 @@ ul {
 }
 
 .clients-link {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 170px;
   height: 92px;
   padding: 16px 32px;
@@ -461,16 +467,13 @@ address.address {
 
 /* Присоединяйтесь */
 
-.footer-list {
+.footer-thumb {
   display: flex;
-  align-items: center;
+  align-items: baseline;
 }
 
 .footer-social-item {
-  width: 206px;
-  height: 80px;
   margin-left: 70px;
-  margin-right: 93px;
 }
 
 .footer-title {
@@ -492,7 +495,9 @@ address.address {
 }
 
 .footer-social-link {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 44px;
   height: 44px;
   background: rgba(255, 255, 255, 0.1);
@@ -558,18 +563,15 @@ address.address {
   margin-left: -30px;
 }
 
-.projects-item {
-  background-color: var(--light-color);
-}
-
 .projects-list > .projects-item {
+  background-color: var(--light-color);
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc(100% / 3 - 30px);
 }
 
-.projects-item:hover,
-.projects-item:focus {
+.projects-link:hover,
+.projects-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -582,6 +584,7 @@ address.address {
 }
 
 .projects-link {
+  display: block;
   text-decoration: none;
 }
 
